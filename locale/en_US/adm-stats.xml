@@ -1,0 +1,29 @@
+<locale>
+	<adm>
+		<stats>
+			<h2>General information</h2>
+			<summary>
+				<platform-version>Platform version</platform-version>
+				<loaded-plugins>Loaded plugins</loaded-plugins>
+				<cache-type>Cache type</cache-type>
+			</summary>
+			<server>
+				<title>Environment</title>
+				<webserver>Web server</webserver>
+				<phpversion>PHP version</phpversion>
+			</server>
+			<extensions>
+				<title>PHP Extensions</title>
+				<required-extensions>Required extensions</required-extensions>
+				<missing-extensions>Missing extensions</missing-extensions>
+				<extra-extensions>Extra extensions</extra-extensions>
+			</extensions>
+			<database>
+				<title>Database</title>
+				<status-ok>Database tables structure is fine.</status-ok>
+			</database>
+			<permissions>Files and directories</permissions>
+			<permissions-ok>no problems found</permissions-ok>
+		</stats>
+	</adm>
+</locale>

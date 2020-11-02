@@ -1,0 +1,18 @@
+<menu>
+	<content href="" priority="90"/>
+	<catalog href="" priority="80"/>
+	<media href="" priority="70"/>
+	<talks href="" priority="60"/>
+	<database href="" priority="50"/>
+	<users href="" priority="40"/>
+	<settings href="" priority="30"/>
+	<development href="" priority="20" sup="1">
+		<database/>
+		<config/>
+		<locales/>
+	</development>
+	<!--
+	Todo: needs styles
+	<status priority="10"/>
+	-->
+</menu>

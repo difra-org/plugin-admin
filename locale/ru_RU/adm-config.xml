@@ -1,0 +1,11 @@
+<locale>
+	<adm>
+		<config>
+			<title>Конфигурация</title>
+			<current>Сохраненная конфигурация</current>
+			<diff>Изменения конфигурации</diff>
+			<reset>Вернуть сохранненную конфигурацию</reset>
+			<reset-done>Изменения конфигурации были сброшены.</reset-done>
+		</config>
+	</adm>
+</locale>

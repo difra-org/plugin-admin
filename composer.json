@@ -1,0 +1,38 @@
+{
+    "name": "difra/adm",
+    "description": "Difra Administration interface",
+    "type": "library",
+    "license": "BSD-2-Clause",
+    "authors": [
+        {
+            "name": "Eduard Kutuev",
+            "email": "ed@napych.com"
+        }
+    ],
+    "require": {
+        "difra/jquery3": "*",
+        "difra/bootstrap4": "*",
+        "difra/fontawesome5": "*"
+    },
+    "dist": {
+        "url": "https://github.com/difra-org/adm/archive/1.0.0.zip",
+        "type": "zip"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:difra-org/adm.git"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "main.php"
+        ],
+        "classmap": [
+            "src/Controller/Adm.php"
+        ],
+        "psr-4": {
+            "Difra\\Adm\\": "src"
+        }
+    }
+}

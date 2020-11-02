@@ -1,0 +1,20 @@
+<locale>
+	<menu>
+		<adm>
+			<menu_content>Контент</menu_content>
+			<menu_catalog>Каталог</menu_catalog>
+			<menu_media>Медиа</menu_media>
+			<menu_talks>Общение</menu_talks>
+			<menu_database>База данных</menu_database>
+			<menu_users>Пользователи</menu_users>
+			<menu_settings>Настройки</menu_settings>
+			<menu_status>Общая информация</menu_status>
+			<menu_development>Разработка</menu_development>
+			<menu_development_database>База данных</menu_development_database>
+			<menu_development_config>Состояние конфигурации</menu_development_config>
+			<menu_development_plugins>Плагины</menu_development_plugins>
+			<menu_development_locales>Локализация</menu_development_locales>
+			<menu_development_typograph>Типограф</menu_development_typograph>
+		</adm>
+	</menu>
+</locale>

@@ -1,0 +1,11 @@
+<locale>
+	<adm>
+		<config>
+			<title>Configuration</title>
+			<current>Stored configuration</current>
+			<diff>Configuration changes</diff>
+			<reset>Back to stored configuration</reset>
+			<reset-done>Configuration changes have been reset.</reset-done>
+		</config>
+	</adm>
+</locale>

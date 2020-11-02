@@ -1,0 +1,9 @@
+<locale>
+	<adm>
+		<actions>
+			<title>Действия</title>
+		</actions>
+		<save>Сохранить</save>
+		<cancel>Отмена</cancel>
+	</adm>
+</locale>

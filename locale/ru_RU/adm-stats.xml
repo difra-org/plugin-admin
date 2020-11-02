@@ -1,0 +1,32 @@
+<locale>
+	<adm>
+		<stats>
+			<h2>Общая информация</h2>
+			<summary>
+				<platform-version>Версия платформы</platform-version>
+				<loaded-plugins>Загруженные плагины</loaded-plugins>
+				<cache-type>Тип кэширования</cache-type>
+			</summary>
+			<server>
+				<title>Окружение</title>
+				<webserver>Веб-сервер</webserver>
+				<phpversion>Версия PHP</phpversion>
+			</server>
+			<extensions>
+				<title>Расширения PHP</title>
+				<required-extensions>Необходимые расширения</required-extensions>
+				<missing-extensions>Недостающие расширения</missing-extensions>
+				<extra-extensions>Другие расширения</extra-extensions>
+			</extensions>
+			<database>
+				<title>База данных</title>
+				<status-ok>Структура базы данных в порядке.</status-ok>
+			</database>
+			<unify>
+				<title>Объекты Unify</title>
+			</unify>
+			<permissions>Файлы и папки</permissions>
+			<permissions-ok>проблем не обнаружено</permissions-ok>
+		</stats>
+	</adm>
+</locale>
