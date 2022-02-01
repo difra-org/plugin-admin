@@ -1,28 +1,28 @@
 {
-    "name": "difra/adm",
+    "name": "difra/plugin-admin",
     "description": "Difra Administration interface",
     "type": "library",
     "license": "BSD-2-Clause",
     "authors": [
         {
-            "name": "Eduard Kutuev",
+            "name": "Ed Kutuev",
             "email": "ed@napych.com"
         }
     ],
     "require": {
-        "difra/difra": "8.0.*",
-        "difra/jquery3": "*",
-        "difra/bootstrap4": "*",
-        "difra/fontawesome5": "*"
+        "difra/difra": "~8.0.0",
+        "difra/binding-jquery3": "~8.0.0",
+        "difra/binding-bootstrap4": "~8.0.0",
+        "difra/binding-fontawesome5": "~8.0.0"
     },
     "dist": {
-        "url": "https://github.com/difra-org/adm/archive/1.0.0.zip",
+        "url": "https://github.com/difra-org/plugin-admin/archive/refs/tags/8.0.0.zip",
         "type": "zip"
     },
     "repositories": [
         {
             "type": "vcs",
-            "url": "git@github.com:difra-org/adm.git"
+            "url": "git@github.com:difra-org/plugin-admin.git"
         }
     ],
     "autoload": {
