@@ -10,6 +10,7 @@
         }
     ],
     "require": {
+        "difra/difra": "8.0.*",
         "difra/jquery3": "*",
         "difra/bootstrap4": "*",
         "difra/fontawesome5": "*"
