@@ -15,7 +15,7 @@ class Adm extends Controller
     /**
      * Set instance to adm
      */
-    public function dispatch()
+    public function dispatch(): void
     {
         View::$instance = 'adm';
         if (!$this->root->getAttribute('title')) {

@@ -241,7 +241,7 @@ class LocaleManage
         $d = opendir($dir);
         while ($f = readdir($d)) {
             $df = $dir . '/' . $f;
-            if ($f{0} == '.') {
+            if ($f[0] == '.') {
                 continue;
             }
             if (is_dir($df)) {

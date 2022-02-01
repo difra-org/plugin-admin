@@ -8,7 +8,7 @@ class Locales extends \Difra\Controller
      * Dispatcher
      * @throws \Difra\View\HttpError
      */
-    public function dispatch()
+    public function dispatch(): void
     {
         if (!\Difra\Debugger::isEnabled()) {
             throw new \Difra\View\HttpError(404);
