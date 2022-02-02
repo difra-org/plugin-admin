@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Controller\Adm\Development;
 
 class Config extends \Difra\Controller\Adm
@@ -8,7 +10,7 @@ class Config extends \Difra\Controller\Adm
      * Dispatcher
      * @throws \Difra\View\HttpError
      */
-    public function dispatch()
+    public function dispatch(): void
     {
         if (!\Difra\Debugger::isEnabled()) {
             throw new \Difra\View\HttpError(404);
